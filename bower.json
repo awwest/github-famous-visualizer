@@ -1,0 +1,25 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+   "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css-only": "*",
+    "angular": "*" ,
+    "angular-cookies": "*",
+    "angular-ui-router": "*",
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
+    "famous": "~0.2.1"
+  }
+}
